@@ -1,16 +1,31 @@
-# weather_app_flutter
+🌦️ SkyCast | Weather App
+A lightweight Flutter weather application focused on Clean Architecture and a modern UI.
 
-A new Flutter project.
+🚀 Key Features
+Model-Helper Pattern: Clear separation of concerns for data and logic.
 
-## Getting Started
+Navigation: Seamless transition from city list to detailed view.
 
-This project is a starting point for a Flutter application.
+Blue Aesthetic: A clean, consistent blue-themed interface.
 
-A few resources to get you started if this is your first Flutter project:
+Async Handling: Using FutureBuilder for smooth data fetching.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📁 Project Structure
+lib/models/: Data classes (Weather Model).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/helpers/: API/Data service logic.
+
+lib/screens/: UI (Home & Details pages).
+
+🛠️ Quick Start
+Get dependencies:
+
+Bash
+
+flutter pub get
+Run the app:
+
+Bash
+
+flutter run
+Developed by Badr Eldin
